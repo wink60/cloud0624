@@ -38,8 +38,8 @@ public class PaymentController
         log.info("*****result: "+result);
         return result;
     }
-
-    //====服务熔断
+    //===此句以上是服务降级
+    //====此句以下服务熔断--测试的时候先传递一次正数，再传递9次负数，达到熔断阈值，会熔断一段时间再恢复
     @GetMapping("/payment/circuit/{id}")
     public String paymentCircuitBreaker(@PathVariable("id") Integer id)
     {
