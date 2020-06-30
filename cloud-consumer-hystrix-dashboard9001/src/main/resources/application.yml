@@ -1,0 +1,4 @@
+server:
+  port: 9001
+
+hystrix.config.stream.maxConcurrentConnections: 50
