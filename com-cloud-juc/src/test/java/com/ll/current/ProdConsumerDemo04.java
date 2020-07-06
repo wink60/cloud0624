@@ -6,7 +6,7 @@ import java.util.concurrent.locks.ReentrantLock;
 
 class Aircondition{
     private int number=0;
-    private Lock lock=new ReentrantLock();
+    private Lock lock=new ReentrantLock();//可重入锁--非公平锁
     private Condition condition=lock.newCondition();
     public void increment(){//++
         lock.lock();
