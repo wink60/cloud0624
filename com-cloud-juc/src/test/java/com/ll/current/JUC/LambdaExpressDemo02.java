@@ -1,4 +1,4 @@
-package com.ll.current;
+package com.ll.current.JUC;
 @FunctionalInterface //函数编程只能有一个接口加了此注解
 interface Foo{
     // public void sayHello();

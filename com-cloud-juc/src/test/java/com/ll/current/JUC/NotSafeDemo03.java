@@ -1,4 +1,4 @@
-package com.ll.current;
+package com.ll.current.JUC;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
