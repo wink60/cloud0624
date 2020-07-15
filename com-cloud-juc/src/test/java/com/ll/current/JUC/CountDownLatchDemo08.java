@@ -6,11 +6,7 @@ import java.util.concurrent.*;
  * @ Author     ：liul
  * @ Date       ：Created in 10:40 2020/7/6
  * @ Description：${
- *       多线程，第三种方法Callable
- *       不同与Runnable 的三点：call/run 有返回值 有异常
- *
- *       1.get 方法一般放在最后一行。
- *       2.Callable 调用两次计算，相同的有缓存
+ *        题目原型：班长关门走人原型
  * }
  * @ Modified By：
  * @Version: $1.00$
