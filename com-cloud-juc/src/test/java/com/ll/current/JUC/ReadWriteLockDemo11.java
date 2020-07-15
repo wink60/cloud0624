@@ -31,9 +31,9 @@ class Mycache{
     public void get(String key){
         readWriteLock.readLock().lock();
         try {
-            System.out.println(Thread.currentThread().getName()+"\t   开始读取成功"+key);
+            System.out.println(Thread.currentThread().getName()+"\t  ==== 开始读取成功"+key);
             Object result = map.get(key);
-            System.out.println(Thread.currentThread().getName()+"\t   读取成功"+result);
+            System.out.println(Thread.currentThread().getName()+"\t  ==== 读取成功"+result);
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
