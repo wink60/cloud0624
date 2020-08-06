@@ -11,9 +11,9 @@ import org.springframework.test.context.junit4.SpringRunner;
  * @ Description：${description}
  * @ Modified By：
  * @Version: $1.00$
+ @SpringBootTest
+ @RunWith(SpringRunner.class)
  */
-@SpringBootTest
-@RunWith(SpringRunner.class)
 public class javaTest {
     @Test
     public void getResult(){
