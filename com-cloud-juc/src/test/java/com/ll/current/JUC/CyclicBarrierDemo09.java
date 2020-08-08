@@ -9,7 +9,8 @@ import java.util.concurrent.ExecutionException;
  * @ Author     ：liul
  * @ Date       ：Created in 10:40 2020/7/6
  * @ Description：${
- *      等够7人开饭
+ *      等够7人开饭做加法CyclicBarrier
+ *      做减法CountDownLatch
  * }
  * @ Modified By：
  * @Version: $1.00$
