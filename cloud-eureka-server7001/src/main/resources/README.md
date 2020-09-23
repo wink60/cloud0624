@@ -38,6 +38,15 @@ Eureka 相当于 开发商和买房用户之间的中介
         eviction-interval-timer-in-ms: 2000
         
         可以通过eureka 里边实例是否存在查看并验证
-         
+
+#Eureka 自身 继承Ribbon=负载均衡+restTemplate：
+            微服务提供负载均衡（轮训，随机，权重） 来分配调用 微服务        
+      1.   <!--eureka-client  对应着eureka 里边的server 是eureka的两个组件-->
+                <dependency>
+                    <groupId>org.springframework.cloud</groupId>
+                    <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+                </dependency> 
+                这个包内集成了Ribbon   也可以单独引用ribbon 自己的jar 包
+      2.详细代码可参考 cloud-consumer-order80          
 该项目是练习springCloud项目的所有代码整理
 

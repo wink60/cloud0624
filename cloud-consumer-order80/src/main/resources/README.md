@@ -34,7 +34,10 @@ cusmer 80
        http://localhost:8001/payment/discovery
        展示在Eureka 中注册过的所有服务列表信息
       3.主启动上加注解 @EnableDiscoveryClient 
-  
+# Eureka 可继承Ribbon 详细可参考 
+    myrule 文件包 和
+    config 还有
+    controler 里的/consumer/payment/getForEntity/{id} 
   
 该项目是练习springCloud项目的所有代码整理
 
