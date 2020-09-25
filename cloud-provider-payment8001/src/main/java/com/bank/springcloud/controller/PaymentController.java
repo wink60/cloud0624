@@ -55,7 +55,13 @@ public class PaymentController {
             return new CommonResult(444,"插入数据库失败",null);
         }
     }
-
+    /**
+     * @author: Liul
+     *@date 2020/6/25 11:42
+     *@param  * @param payment
+     *@return
+     *@description: ${获取一条信息，注意注解形式
+     **/
     @GetMapping(value = "/payment/get/{id}")
     public CommonResult<Payment> getPaymentById(@PathVariable("id") Long id)
     {
